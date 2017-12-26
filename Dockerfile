@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/wzheng1/test1@sha256:155d29bbf0277470ee7ae9c5e15368348307d998d4a88a0cc26d243c90040bce
+FROM docker-registry.default.svc:5000/wzheng1/docker-build@sha256:3fcfacc204a054f85e036e3194ff39f69e911e496cee8a4c6a3204bdab5583ad
 ADD test /opt/jialiu_test
 
 ENTRYPOINT ["sh", "/bin/hack_init.sh"]
